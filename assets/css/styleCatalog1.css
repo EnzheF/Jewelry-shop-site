@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ede8e4;
+}
+.product-item {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s ease-in;
+}
+.product-item:hover {
+    border-bottom: 2px solid #c7baaf;
+}
+
+.product-item img {
+    display: block;
+    width: 100%;
+}
+
+.product-item img:hover {
+    background: url(../../images2/Браслет310.png);
+}
+
+.img {
+    background: url(../../images2/Браслет12.png);
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+.img:hover {
+    background: url(../../images2/Браслет120.png);
+    border: 2px solid yellowgreen;
+    width: 300px;
+    height: 300px;
+}
+
+.product-list {
+    background: white;
+    padding: 15px 0;
+ }
+ .product-list h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+ }
+ .price {
+    font-size: 18px;
+    color: black;
+    display: block;
+    margin-bottom: 12px;
+ }
+ .material {
+    font-size: 14px;
+    color: #837f7f;
+    display: block;
+    margin-bottom: 12px;
+ }
+ .button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #ede8e4;
+    color: #444444;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 35px;
+    width: 120px;
+    transition: .3s ease-in;
+ }
+ .product-item:hover .button {
+    background: #c7baaf;
+ }
